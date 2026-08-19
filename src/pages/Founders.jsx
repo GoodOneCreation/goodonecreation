@@ -10,6 +10,8 @@ import {
     FiArrowRight
 } from "react-icons/fi";
 
+import { FaPinterest } from "react-icons/fa";
+
 import {
     Header,
     InnerPageLogo,
@@ -139,32 +141,37 @@ const founders = [
 
             {
                 label: "Facebook",
-                href: "#",
-                icon: <FiFacebook />
+                href: "https://www.facebook.com/share/1Cx6R1xXXC/",
+                icon: <FiFacebook />,
+                external: true
             },
 
             {
                 label: "Instagram",
-                href: "#",
-                icon: <FiInstagram />
+                href: "https://www.instagram.com/dkgurjar7181?igsh=eXJ3Z2lrNmhldDIz",
+                icon: <FiInstagram />,
+                external: true
             },
 
             {
                 label: "X",
-                href: "#",
-                icon: <FiTwitter />
+                href: "https://x.com/DineshKumarBir2",
+                icon: <FiTwitter />,
+                external: true
             },
 
             {
                 label: "LinkedIn",
-                href: "#",
-                icon: <FiLinkedin />
+                href: "https://in.linkedin.com/in/dinesh-kumar-birla-a4a28a178",
+                icon: <FiLinkedin />,
+                external: true
             },
 
             {
                 label: "YouTube",
-                href: "#",
-                icon: <FiYoutube />
+                href: "https://youtube.com/@dkgurjar7181?si=ZoxWOE-KYxqFjXd5",
+                icon: <FiYoutube />,
+                external: true
             }
 
         ]
@@ -187,32 +194,37 @@ const founders = [
 
             {
                 label: "Instagram",
-                href: "#",
-                icon: <FiInstagram />
+                href: "https://www.instagram.com/bgurjar2812?igsh=bzlqODU0MjRmNHpq&igsi=bzlqODU0MjRmNHpq",
+                icon: <FiInstagram />,
+                external: true
             },
 
             {
                 label: "Facebook",
-                href: "#",
-                icon: <FiFacebook />
+                href: "https://www.facebook.com/bgurjar2812?mibextid=ZbWKwL",
+                icon: <FiFacebook />,
+                external: true
             },
 
             {
                 label: "FB Page",
-                href: "#",
-                icon: <FiFacebook />
+                href: "https://www.facebook.com/share/17WNWnDivD/",
+                icon: <FiFacebook />,
+                external: true
             },
 
             {
                 label: "YouTube",
-                href: "#",
-                icon: <FiYoutube />
+                href: "https://youtube.com/@gurjarbhartivlogs?si=4tDAVM4WunbJlZxG",
+                icon: <FiYoutube />,
+                external: true
             },
 
             {
-                label: "X",
-                href: "#",
-                icon: <FiTwitter />
+                label: "Pinterest",
+                href: "https://pin.it/2ZaDZfCV5",
+                icon: <FaPinterest />,
+                external: true
             }
 
         ],
